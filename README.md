@@ -6,26 +6,30 @@ C solutions for the exercises in "The C Programming Language" (Kernighan & Ritch
 
 These are solutions to some problems from The C Programming Language Book. The goal is to practice
 C programming fundementals, memory management, algorithms & trying to make myself feel smarter than i actually am.
+
 ## Prerequisites
 
-- GCC or any C compiler supporting C99 or later
+- GCC or any C compiler supporting C99 or later & CMake
 
 ## Usage
 
 To compile and run a specific exercise manually:
 ```bash
-gcc -std=c99 -Wall -Wextra -O2 -o ex1-14 ex1-14.c
-./ex1-14 < input.txt
+make run FILE="4-X/4-14.c"  
 ```
-Replace `ex1-14.c` and `ex1-14` with the desired exercise filename (format: `ex<chapter>-<exercise>.c`).
+Replace `4-X/` and `4-14.c` with the desired exercise filename (format: `chapter-X/<exercise>.c`).
 
 
 
 ## Directory Structure
 
 ```
+//X represents exercises
 CBook/
-├── 1.X (X representing chapter)
+├── 1-X Introduction
+├── 2-X Types Operands & Expressions
+├── 3-X Control Flow
+├── 4-X Functions
 └── README.md
 ```
 
