@@ -30,6 +30,7 @@ CBook/
 ├── 2-X Types Operands & Expressions
 ├── 3-X Control Flow
 ├── 4-X Functions
+├── 5-X Pointers & Arrays
 └── README.md
 ```
 
